@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 750px;
+  }
+  
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+
+  .each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 750px;
+  }
+  
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  .selected-row {
+    background-color: #e2e8f0; /* Change to desired background color */
+  }
+  .select-no-outline:focus {
+    outline: 3px solid black; /* Change the color and thickness of the focus outline */
+  }
+
+  .dropdown-content {
+    display:block;
+    position: absolute;
+    min-width: 160px;
+    padding: 12 px 16 px;
+    z-index: 1;
+  }
+  .search {
+    position: relative;
+    display: inline-block;
+  }
+
+
+  .option {
+    background-color: white;
+    color: black;
+    font-family: medium;
+    
+  }
+
+ 
+  
+  .option--selected {
+    background-color: #edf2f7;
+    color: black;
+  }
+  
+  /* Single Value */
+  .single-value {
+    color: black;
+  }
+  
+  /* Menu */
+  .menu {
+    margin-top: 2px;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: 200;
+  }
+  
+  /* Indicator Separator */
+  .indicator-separator {
+    display: none;
+  }
+  
+  /* Dropdown Indicator */
+  .dropdown-indicator {
+    color: #edf2f7;
+  }
+  
+  .dropdown-indicator:hover {
+    color: #edf2f7;
+  }
